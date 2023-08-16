@@ -1,4 +1,4 @@
-# Ponder-Boot-standalone
+# ponder-oj
 单模块 SpringBoot 项目的快速初始化模板
 
 [![standard-readme compliant](https://img.shields.io/badge/JDK-1.8-brightgreen.svg?style=flat-square)](https://github.com/ponderyao/droc-identifier)

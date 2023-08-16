@@ -12,9 +12,9 @@
   </parent>
 
   <groupId>io.github.ponderyao</groupId>
-  <artifactId>ponder-boot-standalone</artifactId>
+  <artifactId>ponder-oj</artifactId>
   <version>1.0.0</version>
-  <name>ponder-boot-standalone</name>
+  <name>ponder-oj</name>
   <description>the fast initialization template for Springboot project with single module</description>
 
   <properties>
