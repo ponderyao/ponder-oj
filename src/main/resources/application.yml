@@ -1,0 +1,61 @@
+application:
+  version: '@project.version@'
+
+server:
+  address: 0.0.0.0
+  port: 8080
+  servlet:
+    context-path: /api
+    session:
+      cookie:
+        max-age: 2592000
+
+spring:
+  application:
+    name: ponder-boot-standalone
+  profiles:
+    active: dev
+  # 支持 swagger3
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  # session 配置
+  session:
+    store-type: redis
+    timeout: 2592000
+  # 缓存
+  cache:
+    type: redis
+    #指定存活时间（ms）
+    redis.time-to-live: 86400000
+    #是否缓存空值，可以防止缓存穿透
+    redis.cache-null-values: true
+  # 文件上传
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      # 全局逻辑删除的实体字段名
+      logic-delete-field: valid
+      # 逻辑已删除值
+      logic-delete-value: 0
+      # 逻辑未删除值
+      logic-not-delete-value: 1
+
+ponder-boot:
+  # 全局事务
+  transaction:
+    enabled: true
+#    propagation: 0
+    # 需要事务管理的接口方法名前缀
+    writeMethods: user,edit,set
+#    readMethods: *
+    timeout: 50000
+    pointcutExpression: execution(* controller..*.*(..))

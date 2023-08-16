@@ -1,0 +1,34 @@
+spring:
+  # 数据库配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # todo 设置mysql连接地址
+    url: jdbc:mysql://localhost:3306/my_db?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8
+    # todo 设置mysql账号
+    username: root
+    # todo 设置mysql密码
+    password: root
+  # Redis 配置
+  redis:
+    # todo 设置redis主机地址
+    host: localhost
+    port: 6379
+    database: 0
+    # todo 设置redis密码
+    password: 123456
+    timeout: 5000
+
+mybatis-plus:
+  configuration:
+    # 生产环境关闭日志
+    log-impl: ''
+
+minio:
+  # todo 设置minio主机地址与端口号
+  endpoint: http://localhost:9090/
+  # todo 设置minio访问key
+  accessKey: minioadmin
+  # todo 设置minio密钥key
+  secretKey: minioadmin
+  # todo 设置minio存储桶
+  bucket: dev
