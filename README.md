@@ -1,11 +1,11 @@
 # Ponder-Boot-standalone
 单模块 SpringBoot 项目的快速初始化模板
 
-[![standard-readme compliant](https://img.shields.io/badge/JDK-1.8+-brightgreen.svg?style=flat-square)](https://github.com/ponderyao/droc-identifier)
-[![standard-readme compliant](https://img.shields.io/badge/SpringBoot-2.7.3.RELEASE-brightgreen.svg?style=flat-square)](https://github.com/ponderyao/droc-identifier)
+[![standard-readme compliant](https://img.shields.io/badge/JDK-1.8-brightgreen.svg?style=flat-square)](https://github.com/ponderyao/droc-identifier)
+[![standard-readme compliant](https://img.shields.io/badge/SpringBoot-2.7.3-brightgreen.svg?style=flat-square)](https://github.com/ponderyao/droc-identifier)
 [![standard-readme compliant](https://img.shields.io/badge/Maven-3.8.1-brightgreen.svg?style=flat-square)](https://github.com/ponderyao/droc-identifier)
-[![standard-readme compliant](https://img.shields.io/badge/Redis-4.0+-pink.svg?style=flat-square)](https://github.com/ponderyao/droc-identifier)
-[![standard-readme compliant](https://img.shields.io/badge/MySQL-5.6+-orange.svg?style=flat-square)](https://github.com/ponderyao/droc-identifier)
+[![standard-readme compliant](https://img.shields.io/badge/Redis-6.0-pink.svg?style=flat-square)](https://github.com/ponderyao/droc-identifier)
+[![standard-readme compliant](https://img.shields.io/badge/MySQL-8.0-orange.svg?style=flat-square)](https://github.com/ponderyao/droc-identifier)
 [![standard-readme compliant](https://img.shields.io/badge/Minio-8.5.2-yellow.svg?style=flat-square)](https://github.com/ponderyao/droc-identifier)
 [![standard-readme compliant](https://img.shields.io/badge/knife4j-3.0.2-cyan.svg?style=flat-square)](https://github.com/ponderyao/droc-identifier)
 [![standard-readme compliant](https://img.shields.io/badge/MybatisPlus-3.5.2-blue.svg?style=flat-square)](https://github.com/ponderyao/droc-identifier)
