@@ -2,7 +2,6 @@ package io.github.ponderyao.boot.config;
 
 import java.io.IOException;
 import java.util.Properties;
-import javax.annotation.Resource;
 import javax.sql.DataSource;
 
 import org.quartz.Scheduler;

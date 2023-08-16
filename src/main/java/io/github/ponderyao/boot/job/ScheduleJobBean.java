@@ -4,7 +4,6 @@ import java.lang.reflect.Method;
 import java.util.Objects;
 
 import org.quartz.JobExecutionContext;
-import org.quartz.JobExecutionException;
 import org.springframework.scheduling.quartz.QuartzJobBean;
 import org.springframework.util.ReflectionUtils;
 
